@@ -1,0 +1,21 @@
+.submitButton {
+  width:100%;
+  margin-bottom:16px;
+}
+.registrationLinkBlock {
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  column-gap:16px;
+  row-gap:7px;
+  flex-wrap:wrap;
+}
+.fullErrorText {
+  color:#A7A7A7;
+}
+.errorText {
+  color:inherit;
+}
+.markErrorText {
+  color:#F42C4F;
+}

@@ -1,0 +1,29 @@
+.mainContainer {
+  display:flex;
+  flex-direction:row;
+  column-gap:6px;
+  margin:47px 0 62px;
+}
+.sidebarContainer {
+  max-width:279px;
+  width:100%;
+}
+.outlet {
+  flex-grow:1;
+}
+
+@media (max-width:1242px) {
+  .mainContainer {
+    min-width:280px;
+    margin-top:30px;
+  }
+  .sidebarContainer {
+    display:none;
+  }
+}
+
+@media (max-width:576px) {
+  .mainContainer {
+    margin-top:8px;
+  }
+}

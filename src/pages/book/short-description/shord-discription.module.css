@@ -1,0 +1,31 @@
+.author {
+  color:#a7a7a7;
+  margin-bottom:32px;
+  row-gap:48px;
+}
+.title {
+  margin-bottom:24px;
+}
+.button {
+  margin-bottom:62px;
+  max-width:350px;
+}
+
+@media (max-width:992px) {
+  .button {
+    margin-bottom:0;
+    max-width:306px;
+  }
+}
+
+@media (max-width:576px) {
+  .title {
+    margin-bottom:8px;
+  }
+  .author {
+    margin-bottom:42px;
+  }
+  .button {
+    max-width:576px;
+  }
+}

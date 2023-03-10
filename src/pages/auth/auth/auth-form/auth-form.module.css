@@ -1,0 +1,34 @@
+.passwordBlock {
+  width:100%;
+  margin-bottom:20px;
+}
+.activePasswordError {
+  display:block;
+}
+.notActivePasswordError {
+  display:none;
+}
+.activeIdentifierError {
+  display:block;
+}
+.notActiveIdentifierError {
+  display:none;
+}
+.activeBadRequestError {
+  display:block;
+}
+.notActiveBadRequestError {
+  display:none;
+}
+.submitButton {
+  width:100%;
+  margin-bottom:16px;
+}
+.registrationLinkBlock {
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  column-gap:16px;
+  row-gap:7px;
+  flex-wrap:wrap;
+}
